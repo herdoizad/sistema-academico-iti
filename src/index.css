@@ -1,0 +1,135 @@
+/* ESTILOS GLOBALES */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #f3f6fa;
+  color: #243447;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* LOGIN */
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #173b64, #23649a);
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #eaf2fb;
+  color: #173b64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.login-title {
+  color: #173b64;
+  font-weight: 700;
+}
+
+.login-card .form-control {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.login-card .btn-primary {
+  background-color: #173b64;
+  border-color: #173b64;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #23649a;
+  border-color: #23649a;
+}
+
+/* SISTEMA ACADÉMICO */
+
+.system-header {
+  background-color: #173b64;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.system-sidebar {
+  background-color: #ffffff;
+  height: 100%;
+  border-right: 1px solid #e5e9ef;
+}
+
+.system-sidebar .nav-link {
+  color: #34495e;
+  padding: 13px 16px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.system-sidebar .nav-link:hover {
+  background-color: #eaf2fb;
+  color: #173b64;
+}
+
+.system-sidebar .nav-link.active {
+  background-color: #173b64;
+  color: white;
+}
+
+.system-main {
+  background-color: #f3f6fa;
+  min-width: 0;
+}
+
+.system-main .card {
+  border-radius: 10px;
+}
+
+.system-main .card-header {
+  border-bottom: 1px solid #e5e9ef;
+}
+
+.system-footer {
+  background-color: #173b64;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.system-main .btn-primary {
+  background-color: #173b64;
+  border-color: #173b64;
+}
+
+.system-main .btn-primary:hover {
+  background-color: #23649a;
+  border-color: #23649a;
+}
